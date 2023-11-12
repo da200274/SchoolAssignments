@@ -1,0 +1,23 @@
+html, body {
+    height:100%;
+}
+
+.formatirajtekst{
+    background: transparent;
+    font-size: 22px;
+}
+
+.postavipozadinu{
+    background: transparent;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #27292d;
+}
+
+.visina{
+    height: 80%;
+}
+

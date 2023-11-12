@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uputstvo</title>
+    <link rel="stylesheet" type="text/css" href="zmijica-dodatno/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="zmijica-dodatno/jquery.js"></script>
+    <script src="zmijica-dodatno/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="skripta-uputstvo.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="row">
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-success" id="dugme-igra">
+                    Andreja Djokic 2020/0274
+                </button>
+                <a href="zmijica-uputstvo.html">
+                    <img class="slika-zmije" src="zmijica-dodatno/download.jpg" alt="..." height="36">
+                </a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h1 id="result">Igra zmijice</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <div class="text-center" id="tekst-uputstvo">
+                    <p>
+                        Poy, ova igra je realizovana kao laboratorijska vežba iz VD.
+                        <br><br>
+                        Sakupite što više hrane sa table i pokušajte da ne udarite u zid ili u deo zmije.
+                        <br><br>
+                        Cilj je oboriti rekorde koje su postavili takmičari pre vas, uživajte.
+                        <br><br>
+                        Ako se zbunite i treba vam pomoć, uvek je na putu sa vama <b>Zmija</b>.
+                        <br><br>
+                    </p>
+                </div>
+                <hr>
+
+                <div class="text-center text-dark">
+                    <label class="text-primary font-weight-bold"><b>Izaberite tezinu igre: </b></label>
+                    <span id="tezina-greska" class="greska"></span>
+                    
+                    <input id="lako" type="radio" name="radio_tezina" value="1">
+                    <label for="lako" class="text-primary">Lako</label>
+
+                    <input id="srednje" type="radio" name="radio_tezina" value="2">
+                    <label for="srednje" class="text-primary">Srednje</label>
+                    
+                    <input id="tesko" type="radio" name="radio_tezina" value="3">
+                    <label for="tesko" class="text-primary">Tesko</label>
+                </div>
+
+                <br>
+
+                <div class="text-center text-dark">
+                    <label class="text-primary font-weight-bold"><b>Unesite dimenziju table: </b></label>
+                    <span id="n-greska" class="greska"></span>
+
+                    <input id="mala" type="radio" name="radio_dimenzija" value="15">
+                    <label for="mala" class="text-primary">Mala</label>
+
+                    <input id="srednja" type="radio" name="radio_dimenzija" value="25">
+                    <label for="srednja" class="text-primary">Srednja</label>
+                    
+                    <input id="velika" type="radio" name="radio_dimenzija" value="35">
+                    <label for="velika" class="text-primary">Velika</label>
+                </div>
+                <br>
+                <div class="text-center text-dark">
+                    <label class="text-primary font-weight-bold"><b>Unesite korisicko ime: </b></label>
+                    <input type="text" id="korime">
+                    <span id="korime-greska" class="greska"></span>
+
+                </div>
+                <div class="text-center text-dark">
+                    <button type="submit" class=" btn text-center text-primary dugmad" id="pokreni">Pokreni igru</button>
+                    <button type="submit" class=" btn text-center text-primary dugmad" id="prikazi">Prikazi rezultate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Minimum distance: 60.4358
+Path: 1 3 6 8 7 5 4 2
+Minimum distance: 114.774
+Path: 12 11 10 8 6 3 1 2 4 5 7 9

@@ -1,0 +1,73 @@
+.container{
+    background-color: #CCFFE5;
+}
+
+#tabela{
+    border: 2px #3D3857 solid;
+    width: 690px;
+    height: 690px;
+}
+
+#tabela_rezultata{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:nth-child(odd) {background-color: #BDF2B4;}
+
+#tabela_rezultata td, th{
+    border: 2px #3D3857 solid;
+    padding: 9px;
+    border-collapse: collapse;
+}
+
+#tabela_rezultata td{
+    color: #04AA6D;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.greska{
+    color:red;
+}
+
+td{
+    border: 1px solid #CCFFE5
+}
+
+.circle{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color: red;
+}
+
+#dugme-igra{
+    margin-top: 5px;
+}
+
+h3, h1{
+    color : #04AA6D;
+}
+
+.dugmad{
+    border: 2px solid #04AA6D;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#tekst-uputstvo{
+    color: #04AA6D;
+    font-size: 18px;
+}
+
+
+.slika-zmije{
+    margin-top: 5px;
+}

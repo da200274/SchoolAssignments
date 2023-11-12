@@ -1,0 +1,5 @@
+a) prva cena:1.2, druga cena:1.25, treca cena:1.5, cetvrta cena:3.16
+	broj iteracija: 17841740610
+b) prva cena:1.2, druga cena:1.25, treca cena:1.5, cetvrta cena:3.16
+	broj iteracija: 25235843
+c) brzi je drugi program (sa 3 for petlje) i to 706 puta

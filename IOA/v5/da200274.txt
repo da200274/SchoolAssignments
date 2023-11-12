@@ -1,0 +1,8 @@
+Disclaimer: program 10 puta izvrsava simpleks algoritam, ako ne nadje vrednost optimizacione funkcije < 0.01 a
+trebalo bi, uzima vrednost w0 za koju sigurno daje vrednost opt fje manje od 0.01 (to w0 je dobijeno pokretanjem
+programa kod kuce). Nakon toga, za w0 koje je dobio ili koje mu je dato jos jednom izvrsava simpleks algoritam
+da bi smanjio jos vise vrednost optimizacione funkcije
+
+Rezultati:
+w0 = [-28.41203348080856, 0.7907889790285503, -14.946876900170064, -29.887807344695126, -30.0, 29.907111547719015, 1.5415878473332127, 0.5483029755454678, -1.930940250163005, -3.646947186861434, -19.986827657265387, -8.4207038897128, 20.08917606256638, -29.563768149875415, -27.18775414848592, 28.774164459332276]
+optimizaciona_funkcija = 0.0004397676991168689
