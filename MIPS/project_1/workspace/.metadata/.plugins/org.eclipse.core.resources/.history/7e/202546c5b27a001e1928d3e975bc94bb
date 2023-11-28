@@ -1,0 +1,19 @@
+#include "stk.h"
+#include "scb.h"
+#include "test.h"
+#include "nvic.h"
+
+void systick_init(){
+	STK->LOAD = 4000000-1;
+	STK->VAL = 0;
+	STK->CTRL |= STK_CTRL_CLCSOURCE | STK_CTRL_ENABLE | STK_CTRL_TICKINT;
+}
+
+int main(){
+	test4();
+
+	//SCB->AIRCR |= (0x0FA << 16);
+
+
+	return 0;
+}

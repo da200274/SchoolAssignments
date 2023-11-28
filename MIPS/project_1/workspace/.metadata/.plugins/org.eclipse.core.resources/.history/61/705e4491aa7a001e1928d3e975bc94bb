@@ -1,0 +1,34 @@
+.cortex-m3
+
+.syntax unified
+.thumb
+
+.extern _main_stack_pointer_value
+.extern main
+
+.section .text.vector_table, "a"
+.word _main_stack_pointer_value
+.word reset_handler
+.word nmi_handler
+.word hard_fault_handler
+.word mem_manage_fault_handler
+.word bus_fault_handler
+.word usage_fault_handler
+.rept 4
+	.word default_handler
+.endr
+.word sv_call_handler
+.rept 2
+	.word default_handler
+.endr
+.word pend_sv_handler
+.word systick_handler
+.word irq0_handler
+.word irq1_handler
+.word irq2_handler
+.rept 65
+	.word default_handler
+.endr
+
+.weak nmi_handler
+.thumbset nmi_handler, default_handler

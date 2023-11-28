@@ -1,0 +1,43 @@
+void nmi_handler(){
+
+}
+
+void hard_fault_handler(){
+
+}
+
+void mem_manage_fault_handler(){
+
+}
+
+void bus_fault_handler(){
+
+}
+
+void usage_fault_handler(){
+
+}
+
+void sv_call_handler(){
+
+}
+
+void pend_sv_handler(){
+
+}
+
+void systick_handler(){
+
+}
+
+void irq0_handler(){
+
+}
+
+void irq1_handler(){
+
+}
+
+void irq2_handler(){
+
+}

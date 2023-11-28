@@ -1,0 +1,4 @@
+Funkcija: 200
+x = [1 1 2 1 0 2 0 0 1 1 1 2 1 2 2 2 1 0 2 0 0 0 0 0 2 1 1 0 0 1 2 1 1 1 2 1 1 2 1 1 1 0 0 2 2 0 2 0 0 1 0 1 2 1 0 2 0 2 1 0 2 1 2 2]
+
+// main.py je za kreiranje grafika, simulated annealing implementiran u main.cpp

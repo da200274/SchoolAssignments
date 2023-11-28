@@ -1,0 +1,9 @@
+#include "stk.h"
+
+void systick_init(){
+	STK->
+}
+
+int main(){
+	return 0;
+}
